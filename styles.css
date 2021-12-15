@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-hero-container {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding-bottom: 80px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header ul {
+  display: flex;
+  gap: 16px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-content p {
+  font-size: 18px;
+}
+
+.hero-content button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.hero-img {
+  flex: 1;
+  background-color: #e5e7eb;
+  color: black;
+  height: 343px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  width: 80vw;
+  margin: auto;
+  color: #1f2937;
+  padding: 50px 0;
+}
+
+.main-content h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.main-content-cards {
+  display: flex;
+  gap: 48px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card-image {
+  height: 150px;
+  width: 150px;
+  border: solid #3882f6 2px;
+  border-radius: 10px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 50px 0;
+}
+
+.quote-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote-container p {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+
+.signup-section {
+  width: 80vw;
+  margin: 100px auto;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.signup-section button {
+  padding: 8px 24px;
+  border: solid #f9faf8 2px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 16px;
+  text-align: center;
+}
