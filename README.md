@@ -9,4 +9,4 @@ Its purpose is to practice and enhance my css positioning skills
 - CSS
 
 ### You can view the project here
-https://jarrell21.github.io/Landing_Page/
+https://jarrell21.github.io/landing_page/
