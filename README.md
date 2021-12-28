@@ -1,4 +1,4 @@
-# Landing_Page
+# landing_page
 
 This project is a challenge from a learning platform, The Odin Project
 
